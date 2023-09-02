@@ -1,0 +1,19 @@
+frontend
+-improve responsivity
+--change nav to dropdown-menu
+--improve home
+--improve responsivity of all pages
+-add "added to cart" dialog
+-add nice price-tags on products
+-improve cart page ui
+-add contact and about pages
+-fix updating image in add products
+-add updating quantity in cart
+-add discover more page
+-make product quantity dynamic
+
+backend
+-secure grandTotal in url
+-add payment methods
+-add messages feature
+-add a notification page to display products that ran out of stock

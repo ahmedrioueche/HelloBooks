@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Hello Books!</title>
+        <link rel="stylesheet" href="../style.css">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Preahvihear&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ddd5e29f6e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Hello<span class="span-style">Books!</span></a>
+            <nav class="navbar">
+                <input type="text" placeholder="Search" class="search-bar">
+                <a href="../index.html">Home</a>
+                <a href="#">Books</a>
+                <a href="#">About</a>   
+                <a href="#">Contact</a>
+                <a href="../orders/orders.html">Orders</a>
+                <a href="../cart.html">Cart</a>
+                <div class="dropdown">
+                    <a href="#" class="account">Account &#9662;</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="username">username</a>
+                        <a href="#" class="email">Email</a>
+                        <button class="logout-button">Log out</button>
+                    </div>
+                </div>              
+            </nav>
+        </header>
+
+        <div class="status-message">
+    
+        </div>
+
+        <div class="order-card">
+            <h3 class="transaction-form-title">Transaction Data</h3>
+            <div class="order-data">
+                <div class="order-section">
+                    <span>Transaction Date:</span>
+                    <span class="data" id="date"></span>
+                </div>
+                <div class="order-section">
+                    <span>Transaction ID:</span>
+                    <span class="data" id="order-id"></span>
+                </div>
+                <div class="order-section">
+                    <span>Username:</span>
+                    <span class="data" id="username"></span>
+                </div>
+                <div class="order-section">
+                    <span>Email:</span>
+                    <span class="data" id="email"></span>
+                </div>
+                <div class="order-section">
+                    <span>Full Name:</span>
+                    <span class="data" id="full-name"></span>
+                </div>
+                <div class="order-section">
+                    <span>Address:</span>
+                    <span class="data" id="address"></span>
+                </div>
+                <div class="order-section">
+                    <span id="purchased-items">Purchased Items:</span>
+                </div>
+                <div class="order-section">
+                    <span>Grand Total:</span>
+                    <span class="data" id="grand-total"></span>
+                </div>
+                <div class="order-section">
+                    <span>Order Status:</span>
+                    <span class="data" id="order-status"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="status-message">
+            <a class="link"></a>
+        </div>
+        <footer class="footer">
+            <div class="footer-container"></div>
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                       <li><a href="">About Us</a></li>
+                       <li><a href="">Our Services</a></li>
+                       <li><a href="">Privacy Policy</a></li>
+                       <li><a href="">Terms And Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                       <li><a href="">Shipping</a></li>
+                       <li><a href="">Returns</a></li>
+                       <li><a href="">Order Status</a></li>
+                       <li><a href="">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Work With Us</h4>
+                    <ul>
+                       <li><a href="">Investments</a></li>
+                       <li><a href="">Advertisements</a></li>
+                       <li><a href="">Sell products</a></li>
+                       <li><a href="">Legal Information</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"> </i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"> </i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"> </i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"> </i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+       
+    </body>
+    <script src="payment_status.js" type="module" async></script>
+</html>

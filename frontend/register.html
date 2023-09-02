@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Hello Books!</title>
+        <link rel="stylesheet" href="style.css">  
+    </head>
+    <body>
+        <div class="form-container">
+            <form class="register-form">
+                <h3>Create an account</h3>
+                <div class="username-container">
+                    <input class="username-input-box" type="text" placeholder="Choose a username">
+                    <div class="toggle-error-text"><span class="error-text" id="username-error"></span></div>
+                </div>
+                <div class="email-container">
+                    <input class="email-input-box" type="text" placeholder="Enter your email">
+                    <div class="toggle-error-text"><span class="error-text" id="email-error"></span></div>
+                </div>
+                <div class="password-container">
+                    <input class="password-input-box" type="password" placeholder="Enter your password">
+                    
+                    <div class="toggle-error-text"><span class="error-text" id="password-error"></span></div>
+                </div>
+                <div class="password-confirmation-container">
+                    <input class="password-confirmation-input-box" type="password" placeholder="Confirm your password">
+                    <div class="toggle-error-text"><span class="error-text" id="password-confirmation-error"></span></div>
+                </div>
+                <button class="register-button" type="button">Register</button>
+                <h4 class="form-bottom-text">Already registered?
+                    <a href="login.html">Login</a>
+                </h4>
+            </form>
+        </div>
+    </body>
+    <script type="module" src="register.mjs"></script>
+</html>
