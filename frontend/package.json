@@ -1,4 +1,5 @@
 {
+  "main": "bundle.js",
   "scripts": {
     "build": "webpack"
   },
